@@ -1,0 +1,83 @@
+section {
+    max-width: 1440px;
+    padding: 16px;
+}
+
+p,
+li {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 2;
+
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 32px;
+
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+}
+
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    padding: 16px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+.prep li::marker, h3{
+    color: hsl(332, 51%, 32%);
+
+}
+img {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 0;
+
+}
+.nutritional-chart ul{
+    padding: unset;
+}
+li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.nutritional-chart li{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 80%;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    padding:12px 24px ;
+}
+
+/* Style for odd rows */
+.nutritional-chart ul span {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+@media screen and (min-width:375px) {
+    body{
+        background-color: hsl(30, 54%, 90%)
+    }
+    main{
+        max-width: 70%;
+        margin: 0 auto;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 18px;
+        border-radius: 8px;
+    }
+
+    
+}
